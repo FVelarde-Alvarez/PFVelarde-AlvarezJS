@@ -1,0 +1,38 @@
+[
+    { 
+        "codigo": 1, 
+        "nombre":"Andador INFANTI", 
+        "img": "./img/Andador Infanti.jpg", 
+        "precio": 429.00
+    },
+    { 
+        "codigo": 2, 
+        "nombre":"Gimnasio Musical", 
+        "img": "./img/gimnasio musical.jpg", 
+        "precio": 126.00
+    },
+    { 
+        "codigo": 3, 
+        "nombre":"Recipientes para leche", 
+        "img": "./img/recipiente de lech.jpg",
+        "precio": 99.00
+    },
+    { 
+        "codigo": 4, 
+        "nombre":"Rodillo PLAYGRO", 
+        "img": "./img/rodillo.jpg",
+        "precio": 129.00
+    },   
+    { 
+        "codigo": 5, 
+        "nombre":"Pelotas Texturizadas", 
+        "img": "./img/Pelotas.jpg",
+        "precio": 35.00
+    }, 
+    { 
+        "codigo": 6, 
+        "nombre":"Overall Baby", 
+        "img": "./img/overall.jpg",
+        "precio": 39.90
+    }  
+]
