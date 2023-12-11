@@ -18,6 +18,7 @@ body{
     width: 40px;
     height: 40px;
     stroke: black;
+    cursor: pointer;
 }
 
 .container-header{
@@ -38,8 +39,8 @@ body{
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 30px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
     margin-bottom: 30px;
 }
 
@@ -51,6 +52,7 @@ body{
     max-width: 300px;
     margin: auto;
     text-align: center;
+    margin: 10px;
 }
 
 .card:hover{
@@ -60,7 +62,6 @@ body{
 .productImg{
     max-width: 80%;
     height: 250px;
-    object-fit: cover;
 }
 
 h2{
@@ -82,5 +83,79 @@ h2{
     cursor: pointer;
     width: 100%;
     margin-bottom: 50%;
+    outline: 0;
 }
+
+/* pestaña carrito */
+.CarritoContainer{
+    width: 80%;
+    margin: 0 10%;
+    max-height: 88vh;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+    scrollbar-color: none;
+}
+
+.CarritoContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.pestañaHeaderCarrito{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.CarritoTitle{
+    justify-self: start;
+}
+
+.pestañaButtonCarrito{
+    cursor: pointer;
+}
+
+.CarritoContainer > .pestañaCarritoContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 10px;
+}
+
+.CarritoContainer > div > img {
+    height: 120px;
+    width: 120px;
+}
+
+.totalCarrito{
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.eliminar{
+    cursor: pointer;
+}
+
+.restar{
+    cursor: pointer;
+}
+
+.sumar{
+    cursor: pointer;
+}
+
+
+
 
